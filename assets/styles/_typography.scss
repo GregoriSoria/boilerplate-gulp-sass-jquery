@@ -1,0 +1,131 @@
+@import '../vendor/font-awesome/css/font-awesome.min.css';
+
+@font-face {
+  font-family: 'Hind';
+  src: url('../fonts/Hind-Light.eot');
+  src: url('../fonts/Hind-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Hind-Light.woff') format('woff'),
+    url('../fonts/Hind-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind';
+  src: url('../fonts/Hind-Medium.eot');
+  src: url('../fonts/Hind-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Hind-Medium.woff') format('woff'),
+    url('../fonts/Hind-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind';
+  src: url('../fonts/Hind-SemiBold.eot');
+  src: url('../fonts/Hind-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Hind-SemiBold.woff') format('woff'),
+    url('../fonts/Hind-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind';
+  src: url('../fonts/Hind-Bold.eot');
+  src: url('../fonts/Hind-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Hind-Bold.woff') format('woff'),
+    url('../fonts/Hind-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoSlab-Light.eot');
+  src: url('../fonts/RobotoSlab-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoSlab-Light.woff') format('woff'),
+    url('../fonts/RobotoSlab-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoSlab-Bold.eot');
+  src: url('../fonts/RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoSlab-Bold.woff') format('woff'),
+    url('../fonts/RobotoSlab-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+// Resetando o caminho das fontes do Boostrap
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../vendor/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot');
+  src: url('../vendor/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded- opentype'), url('../vendor/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../vendor/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../vendor/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../vendor/font-awesome/fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('../vendor/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa-angle-right:before {
+  content: "\f105";
+  font-family: 'FontAwesome';
+}
+.fa-angle-left:before {
+  content: "\f104";
+  font-family: 'FontAwesome';
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hind';
+  font-weight: bold;
+}
+
+h1 {
+  font-size:90px;
+  letter-spacing: -2;
+  line-height: 80px;
+}
+
+h2 {
+  font-size:48px;
+}
+
+h3 {
+  font-size:26px;
+}
+
+@media (max-width: $screen-xs-max) {
+  .container {
+    padding-right:40px;
+    padding-left:40px;
+  }
+
+  h1 {
+    font-size:50px;
+    line-height: 53px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  h2 {
+    font-size:20px;
+  }
+}

@@ -1,0 +1,20 @@
+@import '../vendor/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import '../vendor/slick-carousel/slick/slick.css';
+@import '../vendor/slick-carousel/slick/slick-theme.css';
+@import '../vendor/wow/css/libs/animate.css';
+@import 'mixins';
+@import 'typography';
+@import 'variables';
+@import 'scroll';
+
+body {
+	font-family: "Hind";
+	font-size:16px;
+	color: black;
+	position: relative;
+	background-color: $azul-claro;
+}
+
+body {
+	font-size: 100px;
+}

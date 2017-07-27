@@ -1,0 +1,22 @@
+{
+  "name": "greg",
+  "authors": [
+    "Grégori Sórai"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap-sass": "^3.3.6",
+    "slick-carousel": "^1.6.0"
+  },
+  "description": "a simple boilerplate",
+  "keywords": [
+    "boilerplate",
+    "sass",
+    "gulp",
+    "jquery",
+    "bower",
+    "greg"
+  ],
+  "license": "MIT"
+}
