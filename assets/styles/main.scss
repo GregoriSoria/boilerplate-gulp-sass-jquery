@@ -1,20 +1,15 @@
-@import '../vendor/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import '../vendor/bootstrap-sass/assets/stylesheets/_bootstrap';
 @import '../vendor/slick-carousel/slick/slick.css';
 @import '../vendor/slick-carousel/slick/slick-theme.css';
-@import '../vendor/wow/css/libs/animate.css';
+@import 'variables';
 @import 'mixins';
 @import 'typography';
-@import 'variables';
-@import 'scroll';
+@import 'components/scroll';
 
 body {
-	font-family: "Hind";
+	font-family: "Roboto";
 	font-size:16px;
-	color: black;
+	color: $preto;
 	position: relative;
-	background-color: $azul-claro;
-}
-
-body {
-	font-size: 100px;
+	background-color: $branco;
 }

@@ -1,46 +1,6 @@
 @import '../vendor/font-awesome/css/font-awesome.min.css';
 
 @font-face {
-  font-family: 'Hind';
-  src: url('../fonts/Hind-Light.eot');
-  src: url('../fonts/Hind-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Hind-Light.woff') format('woff'),
-    url('../fonts/Hind-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Hind';
-  src: url('../fonts/Hind-Medium.eot');
-  src: url('../fonts/Hind-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Hind-Medium.woff') format('woff'),
-    url('../fonts/Hind-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Hind';
-  src: url('../fonts/Hind-SemiBold.eot');
-  src: url('../fonts/Hind-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Hind-SemiBold.woff') format('woff'),
-    url('../fonts/Hind-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Hind';
-  src: url('../fonts/Hind-Bold.eot');
-  src: url('../fonts/Hind-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Hind-Bold.woff') format('woff'),
-    url('../fonts/Hind-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Roboto';
   src: url('../fonts/RobotoSlab-Light.eot');
   src: url('../fonts/RobotoSlab-Light.eot?#iefix') format('embedded-opentype'),
@@ -108,11 +68,6 @@ h3 {
 }
 
 @media (max-width: $screen-xs-max) {
-  .container {
-    padding-right:40px;
-    padding-left:40px;
-  }
-
   h1 {
     font-size:50px;
     line-height: 53px;

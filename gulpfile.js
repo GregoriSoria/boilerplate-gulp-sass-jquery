@@ -19,7 +19,7 @@ var AUTOPREFIXER_BROWSERS = [
 var browserSync = require("browser-sync").create();
 
 browserSync.init({
-    files: ["assets/styles/*.css", "index.html", "assets/scripts/main.js"],
+    files: ["assets/styles/*.css", "**/*.html", "assets/scripts/main.js"],
     server: true
 });
 
